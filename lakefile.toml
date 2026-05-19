@@ -1,0 +1,6 @@
+name = "SIDEYangMillsFormation"
+version = "0.1.0"
+defaultTargets = ["SIDEYangMillsFormation"]
+
+[[lean_lib]]
+name = "SIDEYangMillsFormation"
