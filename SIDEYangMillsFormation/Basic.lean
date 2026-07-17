@@ -4,6 +4,17 @@
 
   YANG-MILLS AS A FORMATION-DETERMINED SYSTEM
 
+  ⚠ SCAFFOLDING — PLACEMENT SKELETON OVER STIPULATED CONSTANTS.
+  Claim-bearing status of the placement `Bool := true` stubs WITHDRAWN 2026-07-17
+  (work-order W-5, PLACE-papers OPEN_TRAILS). This kernel records the FORMATION
+  PLACEMENT of Yang–Mills (tuple, Steane code, TECHNE Type II-D classification);
+  the mass gap itself is OPEN — the II-D dark interface, as stated below. The
+  conclusion-named `Bool := true` fields (`mass_gap_is_n3_domain_ostrowski`, the
+  `fully_specified` / `closed` / `fully_enumerable` classification flags) are
+  STIPULATED PLACEMENT VALUES; each dependent `by decide` theorem certifies the
+  stipulation ONLY, never a mass-gap proof. Genuinely structural content: the
+  formation tuple, the [[8,1,5]] code parameters, and the distance arithmetic.
+
   Kernel verification of the structural facts:
 
    - Formation tuple (3, 3, 2, 0) = 8
@@ -277,6 +288,10 @@ theorem promotion_preserves_tuple :
   IS proving the domain Ostrowski for n₃.
 -/
 
+/-- STIPULATED PLACEMENT VALUE (not a derivation): the placement thesis "the mass
+    gap IS the n₃ domain-Ostrowski certification." The mass gap remains OPEN (II-D
+    dark interface); `mass_gap_equals_n3_certification` certifies the stipulation
+    only, not the Clay problem. -/
 def mass_gap_is_n3_domain_ostrowski : Bool := true
 
 theorem mass_gap_equals_n3_certification :

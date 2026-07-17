@@ -1,4 +1,6 @@
-# SIDE-yang-mills-formation v0.1
+# SIDE-yang-mills-formation v0.1.1
+
+> **⚠ SCAFFOLDING — placement skeleton over stipulated constants (placement `Bool := true` stubs' claim-bearing status withdrawn 2026-07-17, work-order W-5).** This kernel records the **formation placement** of Yang–Mills (tuple, Steane code, TECHNE Type II-D classification); the **mass gap itself is OPEN** — the II-D dark interface. The conclusion-named `Bool := true` fields (`mass_gap_is_n3_domain_ostrowski`, the `fully_specified`/`closed`/`fully_enumerable` flags) are **stipulated placement values**; each dependent `by decide` theorem certifies the stipulation only, never a mass-gap proof.
 
 Kernel encoding of Yang-Mills as a formation-determined system. The Clay Millennium mass-gap problem reread as a domain Ostrowski for the n₃ output stage.
 
