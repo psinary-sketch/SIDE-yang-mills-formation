@@ -2,7 +2,12 @@
 
 > **⚠ SCAFFOLDING — placement skeleton over stipulated constants (placement `Bool := true` stubs' claim-bearing status withdrawn 2026-07-17, work-order W-5).** This kernel records the **formation placement** of Yang–Mills (tuple, Steane code, TECHNE Type II-D classification); the **mass gap itself is OPEN** — the II-D dark interface. The conclusion-named `Bool := true` fields (`mass_gap_is_n3_domain_ostrowski`, the `fully_specified`/`closed`/`fully_enumerable` flags) are **stipulated placement values**; each dependent `by decide` theorem certifies the stipulation only, never a mass-gap proof.
 
-Kernel encoding of Yang-Mills as a formation-determined system. The Clay Millennium mass-gap problem reread as a domain Ostrowski for the n₃ output stage.
+SIDE-yang-mills-formation is the placement skeleton its banner says it is: literals carrying a yang_mills prefix and Bool values set by definition. Statements at 73e9e2c:
+
+    theorem yang_mills_code_consistent : yang_mills_code.n = formation_total ∧ yang_mills_code.k = k_logical_dim ∧ yang_mills_code.d = d_eff (SIDEYangMillsFormation/Basic.lean :105)
+    theorem mass_gap_equals_n3_certification : mass_gap_is_n3_domain_ostrowski = true (SIDEYangMillsFormation/Basic.lean :297)
+
+The first says a three-field record equals the file's own totals: no code is constructed and no statement names AG(3, 𝔽₂) or PG(2, 𝔽₂). Read as a quantum code, [[8, 1, 5]] fails the quantum Singleton bound. The second certifies a stipulation. The mass gap stays open.
 
 ## Status
 
@@ -18,21 +23,9 @@ Companion: `SIDE-formation-procedure v0.2`, `SIDE-structural-error-correction`, 
 ## The structure
 
 **Formation tuple (3, 3, 2, 0) = 8:**
-- n₁ = 3: gauge symmetry, Lorentz symmetry, quantization
-- n₂ = 3: Ostrowski places of ℚ
-- n₃ = 2: mass gap + asymptotic freedom
-- n₄ = 0: gauge invariance dark for color content
 
 **Derived parameters:**
 - S = 3 non-dark stages
-- d_eff = 2S − 1 = 5 (Tightness Theorem for k = 1)
-- Formation code: [[8, 1, 5]] on AG(3, 𝔽₂)
-
-**Geometric realization:** AG(3, 𝔽₂), the full eight elements of (ℤ/2)³. ξ(s) lives on PG(2, 𝔽₂) — the seven non-zero elements. The extra point is the origin = trivial character = quantization.
-
-**TECHNE TYPE II:** specified, closed, but mass-gap classification missing means partially enumerable. Impossibility sub-type II-D (specific dark interface at the output stage).
-
-**Promotion path:** Yang-Mills becomes TYPE I when two domain Ostrowskis are supplied — classification of independent algebraic primitives in SU(N), and the mass-gap classification theorem. Solving the Clay Millennium mass-gap problem IS supplying the second domain Ostrowski.
 
 ## What's verified
 
@@ -42,14 +35,12 @@ Companion: `SIDE-formation-procedure v0.2`, `SIDE-structural-error-correction`, 
 
 ### §3 — Formation distance
 - `d_eff_equals_five`: d_eff = 2S − 1 = 5
-- `tightness_applies_yang_mills`: k = 1 ⇒ tightness
 
 ### §4 — Steane-style formation code
 - `yang_mills_code_consistent`: [[8, 1, 5]]
 
 ### §5 — Geometric realization
 - `cubit_eight`, `trivium_seven`, `yang_mills_eight_geom`
-- `yang_mills_extra_point`: AG(3, 𝔽₂) = PG(2, 𝔽₂) ∪ {origin}
 - `extra_point_matches_extra_dimension`
 
 ### §6 — TECHNE TYPE II classification
@@ -65,11 +56,9 @@ Companion: `SIDE-formation-procedure v0.2`, `SIDE-structural-error-correction`, 
 ### §9 — Comparison with ξ(s)
 - `yang_mills_vs_xi`: same n₂, n₃, n₄; n₁ differs by 1
 - `yang_mills_total_eq_xi_plus_one`: 8 = 7 + 1
-- `quantization_is_one`: the extra dimension is quantization
 
 ### §10 — Substrate class (gauge)
 - Gauge class encoded with formation tuple, exclusion 18.6σ, not selected
-- Arithmetic class encoded with exclusion 0.13σ, selected
 - `yang_mills_matches_gauge_class`
 
 ### §11 — Universal Darkness Verification
@@ -77,10 +66,6 @@ Companion: `SIDE-formation-procedure v0.2`, `SIDE-structural-error-correction`, 
 
 ### §12 — Promotion path
 - `promoted_becomes_TYPE_I`
-- `promotion_preserves_tuple`: tuple, d_eff, code unchanged
-
-### §13 — Mass gap as domain Ostrowski
-- `mass_gap_equals_n3_certification`: the Clay problem IS the n₃ domain Ostrowski
 
 ### §14 — Falsification routes
 - Four routes catalogued
@@ -97,7 +82,6 @@ Self-contained — no Mathlib.
 
 | Kernel | Role |
 |---|---|
-| **SIDE-yang-mills-formation** | **Yang-Mills as TECHNE TYPE II with promotion path** |
 | SIDE-kernel | The reference TYPE I system (ξ(s)) — same n₂, n₃, n₄, lower n₁ |
 | SIDE-formation-procedure v0.2 | The TECHNE classification machinery |
 | SIDE-structural-error-correction | The d_eff = 2S − 1 tightness theorem |
@@ -114,4 +98,3 @@ CC-BY 4.0.
 
 `:: → · ← ::`
 
-*The mass gap is the silence boundary. The Clay problem is the domain Ostrowski for n₃.*
